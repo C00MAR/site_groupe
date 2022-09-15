@@ -8,8 +8,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-image: url(img/background-home-desktop.jpg);
-    background-size: cover;
+    background-color: #e0e0e0;
 }
 
 header nav{
@@ -42,6 +41,11 @@ header nav ul li a:hover{
 header img{ 
     width: 100px;
     height: 100px;
+    transition: .3s ease-in-out;
+}
+header img:hover{
+    width: 150px;
+    height: 150px;
 }
 header h1{
     font-family: 'Nabla', cursive;
@@ -54,16 +58,23 @@ main{
     align-items: center;
     justify-content: center;
     padding-top: 10%;
+    border-radius: 50px;
 }
 
 main h3{
-    color: white;
+    color: rgb(0, 0, 0);
     justify-content: center;
+    padding-bottom: 2.5%;
+
 }
 .globalBox{
     display: flex;
     justify-content: center;
     width: 50%;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    border-radius: 5%;
+    box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
 }
 
 .box{
@@ -72,6 +83,40 @@ main h3{
     border-radius: 5%;
     width: 40%;
     font-family: 'Rubik';
-    background-color: rgba(255, 255, 255, 0.333);
-    backdrop-filter: blur(6px);
+}
+
+
+.bar {
+    display: flex;
+    align-items: center;
+  margin-top: 10%;
+  width: 100% ;
+  height: 1em;  
+  border-radius: 0.5em;
+  border: rgb(0, 0, 0) solid 3px;
+}
+.bar2 {
+  width: 70% ;
+  margin-left: -2px;
+  height: 1em;  
+  border-radius: 0.5em;
+  background-color: rgba(38, 0, 142, 0.8);
+}
+.bar3 {
+    width: 20% ;
+    margin-left: -2px;
+    height: 1em;  
+    border-radius: 0.5em;
+    background-color: rgba(119, 143, 0, 0.762);
+  }
+  .bar4 {
+    width: 10% ;
+    margin-left: -2px;
+    height: 1em;  
+    border-radius: 0.5em;
+    background: linear-gradient(to right, rgba(121, 121, 237, 0.7), rgba(176, 77, 93, 0.7), rgba(180, 240, 124, 0.7),rgba(147, 4, 147, 0.7) );
+  }
+
+.pourcent{
+    padding-top: 5%;
 }
