@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap%27');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(img/background-home-desktop.jpg);
+    background-size: cover;
+}
+
+header nav{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #2b2d42;
+    justify-content: space-around;
+    padding: 1% 0;
+}
+
+
+header nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    border-bottom: 1px solid transparent;
+    transition: 0.4s ease-in-out;
+}
+
+header nav ul li a:hover{
+    border-bottom: 1px solid white;
+}
+
+header img{ 
+    width: 100px;
+    height: 100px;
+}
+header h1{
+    font-family: 'Nabla', cursive;
+}
+
+main{   
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+}
+.globalBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+}
+
+.box{
+    margin: 2%;
+    padding: 2%;
+    border-radius: 5%;
+    width: 40%;
+    font-family: 'Rubik';
+    background-color: rgba(255, 255, 255, 0.333);
+    backdrop-filter: blur(6px);
+}
