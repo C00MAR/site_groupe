@@ -109,7 +109,7 @@ main h3{
 }
 
 main h4{
-  color-l: rgb(195, 195, 195);
+  color: rgb(195, 195, 195);
   border-bottom: #111 solid 1px;
   font-size: 20px;
   padding-top: 5%;
@@ -211,7 +211,7 @@ main h4{
     font-size: 20px;
     text-align: center;
     padding: 0 .5rem;
-    padding-bottom: 5%;
+    padding-bottom: 4%;
   }
   
   .podium__number {
