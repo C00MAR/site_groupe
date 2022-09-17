@@ -67,7 +67,7 @@ main{
 /* ****************************************************************** */
 
 .info{
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .info h3{
@@ -83,4 +83,9 @@ main{
 
 .description img{
     margin-left: 70%;
+    position: absolute;
+}
+
+.passion ul{
+    margin-left: 50px;
 }
