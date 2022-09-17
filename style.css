@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -99,6 +100,9 @@ main h3{
 .globalBox2{
   align-items: center;
   flex-direction: column;
+}
+.globalBox3{
+  justify-content: center;
 }
 .container{
   display: flex;
@@ -348,5 +352,20 @@ main h3{
   .cadre , .cadre2, .cadre3, .cadre4{
     display: none;
   }
-  
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    .globalBox3 .parent img{
+      width: 100%;
+      height: 100%;
+      padding: 10px ;
+    } 
+    body{
+      background-size: 5000%;
+
+  }
 }
