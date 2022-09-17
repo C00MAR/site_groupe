@@ -1,1 +1,3 @@
-Projet regroupant 4 élèves de l'IIM
+Ma partie du projet : 
+
+Je m'occupe de la page de Martin
