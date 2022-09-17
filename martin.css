@@ -84,8 +84,29 @@ main{
 .description img{
     margin-left: 70%;
     position: absolute;
+    width: 200px;
 }
 
 .passion ul{
     margin-left: 50px;
+}
+
+/* ******************************************************************** */
+
+@media screen and (max-width : 1650px){
+    .description img{
+        position: relative;
+    }
+}
+
+@media screen and (max-width : 650px){
+    .description img{
+        margin-left: 50%;
+    }
+}
+
+@media screen and (max-width : 450px){
+    .description img{
+        margin-left: 20%;
+    }
 }
