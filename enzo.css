@@ -42,21 +42,66 @@ header h1{
     font-family: 'Nabla', cursive;
 }
 
-main h1 {
-    font-size: 3em;
-    text-decoration: underline;
-    margin-right: 300px;
-    color: black;
-    font-family: 'basis_grotesque_proregular';
-    padding-top: 150px;
+h1, h2
+{
+    font-family: 'droid_sansregular', 'Arial', sans-serif;
 }
 
-.flex1 {
-    display: flex;
-    margin-top: 50px;
-    margin-left: 130px;
-    margin-bottom: 50px;
-    border: 10px;
-    font-size: 15px;
-    padding: 0px;
+h1, h1 + p
+{
+    text-align: center;
+}
+
+img
+{
+    float: right;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
+}
+
+h2
+{
+    color: #6E4A46;
+}
+
+section
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 2%;
+}
+
+#liseret, #contenu
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#liseret
+{   
+    width: 10%;
+    margin-right: 3%;
+    height: 500px;
+    background-image: url(image\lodyas.png);
+    border-radius: 10px;
+}
+
+#contenu
+{
+    width: 85%;
+    margin-top: 5%;
+}
+
+@media screen and (max-width: 1280px)
+{   
+    #liseret{
+        width: 0px;
+        height: 0px;
+    }
+
+
+    #contenu{
+        width: auto;
+    }
 }
