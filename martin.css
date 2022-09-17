@@ -75,3 +75,12 @@ main{
     font-size: 25px;
     text-transform: uppercase;
 }
+
+.info p{
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+.description img{
+    margin-left: 70%;
+}
