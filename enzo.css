@@ -41,3 +41,22 @@ header nav ul li a:hover{
 header h1{
     font-family: 'Nabla', cursive;
 }
+
+main h1 {
+    font-size: 3em;
+    text-decoration: underline;
+    margin-right: 300px;
+    color: black;
+    font-family: 'basis_grotesque_proregular';
+    padding-top: 150px;
+}
+
+.flex1 {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 130px;
+    margin-bottom: 50px;
+    border: 10px;
+    font-size: 15px;
+    padding: 0px;
+}
