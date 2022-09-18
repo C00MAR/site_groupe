@@ -91,11 +91,33 @@ main{
     margin-left: 50px;
 }
 
+.gameImages{
+    display: flex;
+    margin-top: 15px;
+}
+
+.gameImages img{
+    width: 15%;
+    border-radius: 50%;
+}
+
 /* ******************************************************************** */
 
 @media screen and (max-width : 1650px){
     .description img{
         position: relative;
+    }
+}
+
+@media screen and (max-width : 750px) {
+    .gameImages{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .gameImages img{
+        width: 30%;
+        margin-top: 15px;
     }
 }
 
