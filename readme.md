@@ -1,3 +1,5 @@
+PS Thomas : Mes commits se sont pas merge, mais ils sont dans ma branch (thomas)
+
 Rendu Groupe :
 Par groupe de 3/4 personnes
 
