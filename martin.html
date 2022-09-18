@@ -5,21 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="martin.css">
+    <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/23761b7654.js" crossorigin="anonymous"></script>
     <title>Martin</title>
 </head>
 
 <body>
     <header>
-        <h1>Les gardons</h1>
-
+        <h1><a href="index.html">Martin</a> </h1>
         <nav>
-            <ul>
-                <li><a href="#">Enzo</a></li>
-                <li><a href="#">Marc</a></li>
-                <li><a href="#">Thomas</a></li>
-                <li><a href="#">Martin</a></li>
-            </ul>
+            <div id="MaSidenav" class="sidenav">
+                <a id="closeBtn" href="#" class="close">×</a>
+                <ul>
+                    <li><a href="enzo.html">Enzo</a></li>
+                    <li><a href="marc.html">marc</a></li>
+                    <li><a href="thomas.html">Thomas</a></li>
+                    <li><a href="martin.html">Martin</a></li>
+                </ul>
+            </div>
+            
+            <a href="#" id="openBtn">
+                <span class="burger-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </a>
         </nav>
     </header>
 
@@ -63,6 +74,6 @@
         </p>
         </div>
     </main>
-
+<script src="marc.js"></script>
 </body>
 </html>
