@@ -136,6 +136,43 @@ a:active{
 }
 
 @media screen and (max-width:480px) {
+    img
+    {
+        float: right;
+        border: 1px solid black;
+        box-shadow: 2px 2px 2px black;
+        height: 200px;
+        width: 140px;
+        margin-top: 0px;
+    }
     
+    #liseret
+    {   
+        height: 300px;
+        width: 25px;
+    }
+
+    .scroll{
+        display: inline-block;
+        vertical-align: top;
+        width: 90%;
+        margin-right: 2%;
+        height: 110px;
+        border: 1px solid white;
+        text-align: justify;
+        margin-top: 20px;
+        overflow: hidden;
+    }
+
+    .menu {
+        margin-top: 40px;
+        margin-left: 90px;
+    }
     
+    #contenu
+    {
+        width: 85%;
+        margin-top: 5%;
+    }
+
 }   
