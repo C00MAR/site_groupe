@@ -1,12 +1,5 @@
 Projet regroupant 4 élèves de l'IIM
 
-<<<<<<< HEAD
-il a quelque commit que je n'ai pas reussi a enlever
-
-je m'occupe de la partie sur enzo 
-
-j'ai terminer de mon coter
-=======
 Rendu Groupe :
 Par groupe de 3/4 personnes
 
@@ -28,4 +21,3 @@ Un README est également attendu
 
 RENDU DU PROJET DE GROUPE + PROFIL GITHUB : 
 DIMANCHE 18 SEPTEMBRE à 23h59
->>>>>>> 6ba50f80b97adab1e4d14f18d107ca97c68a18bd
