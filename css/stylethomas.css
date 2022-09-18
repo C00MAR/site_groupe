@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+
+header{
+    display: flex;
+    background-color: #2b2d42;
+    justify-content: space-around;
+    padding: 1% 0;
+}
+
+header nav{
+    align-self: center;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    border-bottom: 1px solid transparent;
+    transition: 0.4s ease-in-out;
+}
+
+header nav ul li a:hover{
+    border-bottom: 1px solid white;
+}
+
+header h1{
+    font-family: 'Nabla', cursive;
+}
