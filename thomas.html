@@ -6,18 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/marc/ico_toboggan.ico">
     <link rel="stylesheet" href="thomas.css">
+    <link rel="stylesheet" href="style.css">
     <title>👨🏻‍💻 Thomas 🎢</title>
 </head>
 <body>
     <header>
-        <h1 class="gardons">Les gardons</h1>
+        <h1><a href="index.html">Enzo</a> </h1>
         <nav>
-            <ul>
-                <li><a href="enzo.html" class="linkpage">Enzo</a></li>
-                <li><a href="marc.html" class="linkpage">Marc</a></li>
-                <li><a href="thomas.html" class="linkpage">Thomas</a></li>
-                <li><a href="martin.html" class="linkpage">Martin</a></li>
-            </ul>
+            <div id="MaSidenav" class="sidenav">
+                <a id="closeBtn" href="#" class="close">×</a>
+                <ul>
+                    <li><a href="enzo.html">Enzo</a></li>
+                    <li><a href="marc.html">marc</a></li>
+                    <li><a href="thomas.html">Thomas</a></li>
+                    <li><a href="martin.html">Martin</a></li>
+                </ul>
+            </div>
+            
+            <a href="#" id="openBtn">
+                <span class="burger-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </a>
         </nav>
     </header>
     <main>
@@ -69,5 +81,6 @@
         </footer>
     </main>
     <script src="thomas.js"></script>
+    <script src="marcs.js"></script>
 </body>
 </html>
