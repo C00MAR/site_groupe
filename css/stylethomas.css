@@ -100,7 +100,7 @@ section{
 
 .one{
     margin-left: 30px;
-    width: 300px;
+    width: 320px;
     margin-top: -340px;
 }
 
@@ -108,4 +108,8 @@ section{
     margin-left: 1200px;    
     width: 300px;
     margin-top: -70px;
+}
+
+.para1, .t1, .para2, .t2{
+    display: none;
 }
