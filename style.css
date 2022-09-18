@@ -346,6 +346,9 @@ main h3{
     align-items: center;
     justify-content: center;
   }
+  .globalBox3{
+    z-index: -10;
+  }
   .globalBox{
     z-index: 0;
   }
