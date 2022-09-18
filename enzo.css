@@ -7,7 +7,8 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family:'Titillium Web', 'Poppins', sans-serif;
+    
 }
 
 header{
@@ -44,8 +45,7 @@ header h1{
 
 h1, h2
 {
-    font-family: 'droid_sansregular', 'Arial', sans-serif;
-    text-decoration: underline;
+    font-family: 'Titillium Web', 'droid_sansregular', 'Arial', sans-serif;
 }
 
 h1, h1 + p
@@ -69,8 +69,49 @@ section
 {
     display: inline-block;
     vertical-align: top;
-    width: 30%;
+    width: 20%;
     margin-right: 2%;
+}
+
+.scroll{
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    margin-right: 2%;
+    height: 110px;
+    border: 1px solid white;
+    text-align: justify;
+    margin-top: 110px;
+    overflow: hidden;
+}
+
+.presentation{
+    margin-top: 0px;
+    font-size: 17px;
+}
+
+section a{
+    text-decoration: none;
+    font-size: 12px;
+    transition: 0.4s ease-in-out;
+    color: #656565;
+}
+
+a:link{/* change la couleur d'un lien quand la souris clique dessus */
+    color: rgb(255, 0, 0);
+}
+
+a:hover{
+    color: rgb(255, 0, 0);
+}
+
+a:active{
+    color: rgb(2, 74, 255);
+}
+
+.menu{
+    margin-top: 140px;
+    margin-left: 100px;
 }
 
 #liseret, #contenu
@@ -87,6 +128,7 @@ section
     background-image: url(image\lodyas.png);
     border-radius: 10px;
 }
+
 
 #contenu
 {
